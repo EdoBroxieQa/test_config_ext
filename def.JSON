@@ -15,7 +15,7 @@
 		\{\
             "id": "preset_ton_mainnet_proto",\
             "network": "ton",\
-            "name": "TON new",\
+            "name": "Changed name",\
             "group": "ton",\
             "type": "jrpc",\
             "endpoint": "https://jrpc-ton.broxus.com",\
