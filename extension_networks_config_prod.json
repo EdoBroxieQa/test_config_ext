@@ -5,7 +5,7 @@
     "networks": [
 		{
             "id": "preset_ton_mainnet_proto",
-            "name": "TON new",
+            "name": "TON dead",
             "group": "ton",
             "type": "jrpc",
             "endpoint": "https://jrpc-ton.broxus.com",
