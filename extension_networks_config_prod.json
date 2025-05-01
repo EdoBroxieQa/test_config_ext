@@ -405,7 +405,7 @@
             ],
             "defaultWalletType": "EverWallet",
             "stakeInformation": {
-                "symbol": "STVENOM",
+                "symbol": "VENOM",
                 "decimals": 9,
                 "stakingAPYLink": "https://api.venomstake.com/v1/strategies/main",
                 "stakingVaultAddress": "0:9df94dffc0ca1768647f819c04b2cf00c484b3b756ba6ecde68d5fb62de1dfc7",
