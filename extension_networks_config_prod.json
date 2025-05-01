@@ -1,11 +1,12 @@
 
 {
-
+    "$schema": "./networks_config.schema.json",
+    "defaultConnectionId": "preset_ever_mainnet_proto",
     "networks": [
 		{
             "id": "preset_ton_mainnet_proto",
             "network": "ton",
-            "name": "isViewOnOnboarding:null",
+            "name": "TON new",
             "group": "ton",
             "type": "jrpc",
             "endpoint": "https://jrpc-ton.broxus.com",
@@ -15,15 +16,16 @@
                 "symbol": "TON",
                 "decimals": 9
             },
-            "sortingOrder": 1
+            "sortingOrder": 1,
+            "isViewOnOnboarding": true
         },
 		{
             "id": "preset_hmstr_mainnet_proto",
             "network": "tycho",
-            "name": "NULL_rpc",
+            "name": "Hamster Network",
             "group": "hmstr_mainnet",
             "type": "proto",
-            "endpoint": null,
+            "endpoint": "https://rpc.hamster.network",
             "config": {
                 "explorerBaseUrl": "https://hamsterscan.io",
                 "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/hmstr/manifest.json",
@@ -36,12 +38,16 @@
 		{
             "id": "preset_humo_testnet_proto",
             "network": "tycho",
-            "name": "EMPTY_Config",
+            "name": "Humo",
             "group": "humo_testnet",
             "type": "proto",
             "endpoint": "https://rpc.humonetwork.com",
             "config": {
-                },
+                "explorerBaseUrl": "https://humoscan.com/",
+                "symbol": "HUMO",
+                "decimals": 9,
+                "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json"
+            },
             "sortingOrder": 3,
             "isViewOnOnboarding": false
         },
@@ -63,10 +69,10 @@
         },
         {
             "id": "preset_ever_mainnet_proto",
-            "network": "tycho",
-            "name": "Everscale TO TYCHO_Wrong_type",
+            "network": "everscale",
+            "name": "Everscale",
             "group": "mainnet",
-            "type": "http",
+            "type": "jrpc",
             "endpoint": "https://jrpc.everwallet.net",
             "config": {
                 "symbol": "EVER",
@@ -96,7 +102,7 @@
         {
             "id": "preset_venom_mainnet_proto",
             "network": "venom",
-            "name": "Venom: inva",
+            "name": "Venom",
             "group": "venom_mainnet",
             "type": "proto",
             "endpoint": "https://jrpc.venom.foundation",
@@ -134,11 +140,14 @@
             "HighloadWalletV2"
         ],
         "separateDeployWalletTypes": [
-            "Multisig2200",
+            "Multisig2",
             "Multisig2_1",
             "SafeMultisigWallet",
+            "SafeMultisigWallet24h",
+            "SetcodeMultisigWallet",
+            "SetcodeMultisigWallet24h",
             "BridgeMultisigWallet",
-            "SurfШаркWallet"
+            "SurfWallet"
         ]
     },
     "blockchains": [
@@ -311,7 +320,7 @@
                 "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/vector.svg"
             },
 		"walletDefaultAccountNames": {
-                "EverWallet": "E"
+                "EverWallet": "Ever Wallet"
             },
             "availableWalletTypes": [
                 {
@@ -396,7 +405,7 @@
             ],
             "defaultWalletType": "EverWallet",
             "stakeInformation": {
-                "symbol": "SAINTTVENOM",
+                "symbol": "STVENOM",
                 "decimals": 9,
                 "stakingAPYLink": "https://api.venomstake.com/v1/strategies/main",
                 "stakingVaultAddress": "0:9df94dffc0ca1768647f819c04b2cf00c484b3b756ba6ecde68d5fb62de1dfc7",
@@ -412,4 +421,7 @@
             "currencyApiBaseUrl": "https://api.web3.world/v1",
             "tokenApiUrl": {
                 "balances": "https://tokens.venomscan.com/v1/balances"
-
+            }
+        }
+    ]
+}
