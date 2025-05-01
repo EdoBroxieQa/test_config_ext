@@ -412,7 +412,4 @@
             "currencyApiBaseUrl": "https://api.web3.world/v1",
             "tokenApiUrl": {
                 "balances": "https://tokens.venomscan.com/v1/balances"
-            }
-        }
-    ]
-}
+
