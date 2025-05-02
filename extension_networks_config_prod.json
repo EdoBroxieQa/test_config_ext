@@ -5,7 +5,7 @@
 		{
             "id": "preset_ton_mainnet_proto",
             "network": "ton",
-            "name": "TON new",
+            "name": "TON NEWDEAD",
             "group": "ton",
             "type": "jrpc",
             "endpoint": "https://jrpc-ton.broxus.com",
@@ -151,7 +151,7 @@
     },
     "blockchains": [
         {
-            "networkName": "TON",
+            "networkName": "",
             "network": "ton",
             "networkGroup": "ton",
             "icons": {
