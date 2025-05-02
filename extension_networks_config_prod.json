@@ -1,11 +1,11 @@
-
 {
     "$schema": "./networks_config.schema.json",
     "defaultConnectionId": "preset_ever_mainnet_proto",
     "networks": [
 		{
             "id": "preset_ton_mainnet_proto",
-            "name": "TON dead",
+            "network": "ton",
+            "name": "TON NEWDEAD",
             "group": "ton",
             "type": "jrpc",
             "endpoint": "https://jrpc-ton.broxus.com",
@@ -22,6 +22,7 @@
             "id": "preset_hmstr_mainnet_proto",
             "network": "tycho",
             "name": "Hamster Network",
+            "group": "hmstr_mainnet",
             "type": "proto",
             "endpoint": "https://rpc.hamster.network",
             "config": {
@@ -38,6 +39,7 @@
             "network": "tycho",
             "name": "Humo",
             "group": "humo_testnet",
+            "type": "proto",
             "endpoint": "https://rpc.humonetwork.com",
             "config": {
                 "explorerBaseUrl": "https://humoscan.com/",
@@ -55,6 +57,12 @@
             "group": "tycho_testnet",
             "type": "proto",
             "endpoint": "https://rpc-testnet.tychoprotocol.com/proto",
+            "config": {
+                "explorerBaseUrl": "https://testnet.tychoprotocol.com",
+                "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tychotestnet/manifest.json",
+                "symbol": "TYCHO",
+                "decimals": 9
+            },
             "sortingOrder": 4,
             "isViewOnOnboarding": true
         },
@@ -69,12 +77,13 @@
                 "symbol": "EVER",
                 "explorerBaseUrl": "https://everscan.io",
                 "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
-                "decimals": 4
+                "decimals": 9
             },
             "sortingOrder": 5,
             "isViewOnOnboarding": true
         },
         {
+            "id": "preset_ever_mainnet_gql",
             "network": "everscale",
             "name": "Everscale (reserve)",
             "group": "mainnet",
@@ -142,7 +151,7 @@
     },
     "blockchains": [
         {
-            "networkName": "TON",
+            "networkName": "",
             "network": "ton",
             "networkGroup": "ton",
             "icons": {
@@ -395,7 +404,7 @@
             ],
             "defaultWalletType": "EverWallet",
             "stakeInformation": {
-                "symbol": "VENOM",
+                "symbol": "STVENOM",
                 "decimals": 9,
                 "stakingAPYLink": "https://api.venomstake.com/v1/strategies/main",
                 "stakingVaultAddress": "0:9df94dffc0ca1768647f819c04b2cf00c484b3b756ba6ecde68d5fb62de1dfc7",
