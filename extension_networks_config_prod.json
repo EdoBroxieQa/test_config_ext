@@ -210,28 +210,6 @@
             "availableWalletTypes": [
                 {
                     "type": "EverWallet"
-                },
-                {
-                    "type": "Multisig2_1"
-                },
-                {
-                    "type": "WalletV3R1",
-                    "isDeprecated": true
-                },
-                {
-                    "type": "WalletV3R2",
-                    "isDeprecated": true
-                },
-                {
-                    "type": "WalletV4R1",
-                    "isDeprecated": true
-                },
-                {
-                    "type": "WalletV4R2",
-                    "isDeprecated": true
-                },
-                {
-                    "type": "WalletV5R1"
                 }
             ],
             "defaultActiveAssets": [
@@ -309,11 +287,7 @@
             "networkName": "Everscale",
             "network": "everscale",
             "networkGroup": "mainnet",
-            "icons": {
-                "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/native_token.svg",
-                "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/network.svg",
-                "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/vector.svg"
-            },
+            "icons": {},
 		"walletDefaultAccountNames": {
                 "EverWallet": "Ever Wallet"
             },
@@ -335,26 +309,6 @@
                 {
                     "type": "SafeMultisigWallet",
                     "isDeprecated": true
-                },
-                {
-                    "type": "SafeMultisigWallet24h",
-                    "isDeprecated": true
-                },
-                {
-                    "type": "SetcodeMultisigWallet",
-                    "isDeprecated": true
-                },
-                {
-                    "type": "SetcodeMultisigWallet24h",
-                    "isDeprecated": true
-                },
-                {
-                    "type": "BridgeMultisigWallet",
-                    "isDeprecated": true
-                },
-                {
-                    "type": "SurfWallet",
-                    "isDeprecated": true
                 }
             ],
             "defaultWalletType": "EverWallet",
@@ -370,7 +324,7 @@
             },
             "nativeTokenAddress": "0:a49cd4e158a9a15555e624759e2e4e766d22600b7800d891e46f9291f044a93d",
             "seedPhraseWordsCount": [
-                12,
+        
                 24
             ],
             "currencyApiBaseUrl": "https://api.flatqube.io/v1",
