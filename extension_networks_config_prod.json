@@ -314,7 +314,7 @@
             "defaultWalletType": "EverWallet",
             "stakeInformation": {
                 "symbol": "STEVER",
-                "decimals": 18,
+                "decimals": 9,
                 "stakingAPYLink": "https://staking.everwallet.net/v1/strategies/main",
                 "stakingVaultAddress": "0:675a6d63f27e3f24d41d286043a9286b2e3eb6b84fa4c3308cc2833ef6f54d68",
                 "stakingRootContractAddress": "0:6d42d0bc4a6568120ea88bf642edb653d727cfbd35868c47877532de128e71f2",
