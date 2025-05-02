@@ -69,7 +69,7 @@
         {
             "id": "preset_ever_mainnet_proto",
             "network": "everscale",
-            "name": "Everscale",
+            "name": "NEverscale",
             "group": "mainnet",
             "type": "jrpc",
             "endpoint": "https://jrpc.everwallet.net",
