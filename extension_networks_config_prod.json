@@ -154,11 +154,7 @@
             "networkName": "" ,
             "network": "",
             "networkGroup": "ton",
-            "icons": {
-                "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/native_token.svg",
-                "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/network.svg",
-                "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/vector.svg"
-            },
+            "icons": {},
             "walletDefaultAccountNames": {
                 "WalletV3": "Legacy"
             },
