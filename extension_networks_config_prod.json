@@ -5,7 +5,7 @@
 		{
             "id": "preset_ton_mainnet_proto",
             "network": "ton",
-            "name": "TON NEWDEAD",
+            "name": "TON 2",
             "group": "ton",
             "type": "jrpc",
             "endpoint": "https://jrpc-ton.broxus.com",
@@ -151,8 +151,8 @@
     },
     "blockchains": [
         {
-            "networkName": "",
-            "network": "ton",
+            "networkName": ,
+            "network": "",
             "networkGroup": "ton",
             "icons": {
                 "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/native_token.svg",
