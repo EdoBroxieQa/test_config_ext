@@ -352,16 +352,7 @@
                 }
             ],
             "defaultWalletType": "EverWallet",
-            "stakeInformation": {
-                "symbol": "STVENOM",
-                "decimals": 9,
-                "stakingAPYLink": "https://api.venomstake.com/v1/strategies/main",
-                "stakingVaultAddress": "0:9df94dffc0ca1768647f819c04b2cf00c484b3b756ba6ecde68d5fb62de1dfc7",
-                "stakingRootContractAddress": "0:74604c7a56419477d67329848d754d205f31870025a7135909e90e1726ad9a54",
-                "stakeDepositAttachedFee": "3000000000",
-                "stakeRemovePendingWithdrawAttachedFee": "2000000000",
-                "stakeWithdrawAttachedFee": "3000000000"
-            },
+            "stakeInformation": {},
             "nativeTokenAddress": "0:77d36848bb159fa485628bc38dc37eadb74befa514395e09910f601b841f749e",
             "seedPhraseWordsCount": [
                 12
