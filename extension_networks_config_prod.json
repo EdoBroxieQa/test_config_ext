@@ -354,8 +354,9 @@
             "defaultWalletType": "EverWallet",
             "stakeInformation": {},
             "nativeTokenAddress": "0:77d36848bb159fa485628bc38dc37eadb74befa514395e09910f601b841f749e",
-            "seedPhraseWordsCount": [
-                12, 24
+             "seedPhraseWordsCount": [
+                12,
+                24
             ],
             "currencyApiBaseUrl": "https://api.web3.world/v1",
             "tokenApiUrl": {
