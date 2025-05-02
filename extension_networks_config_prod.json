@@ -308,7 +308,7 @@
                 },
                 {
                     "type": "SafeMultisigWallet",
-                    "isDeprecated": true
+                    "isDeprecated": false
                 }
             ],
             "defaultWalletType": "EverWallet",
