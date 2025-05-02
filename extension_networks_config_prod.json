@@ -69,7 +69,7 @@
         {
             "id": "preset_ever_mainnet_proto",
             "network": "everscale",
-            "name": "NEverscale",
+            "name": "NEVERscale",
             "group": "mainnet",
             "type": "jrpc",
             "endpoint": "https://jrpc.everwallet.net",
@@ -90,7 +90,7 @@
             "type": "graphql",
             "endpoints": ["https://mainnet.evercloud.dev/89a3b8f46a484f2ea3bdd364ddaee3a3/graphql"],
             "config": {
-                "symbol": "EVER",
+                "symbol": "NEVER",
                 "explorerBaseUrl": "https://everscan.io",
                 "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
                 "decimals": 9
